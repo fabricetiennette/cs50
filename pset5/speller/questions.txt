@@ -1,0 +1,19 @@
+0.  An invented long word said to mean a lung disease caused by inhaling very fine ash and sand dust.
+
+1.  It returns resource usage measures for a process. Example CPU time used, Memory size, Data size...
+
+2.  There's 16 variable.
+
+3.  2 structures will be copied int [calculate] 
+
+4.  The main() function starts reading a text char-by-char with the objective of constructing seperate words. 
+    its completed when one or more alphabete symbols are read.then we check for misspellings words. reset the word index to zero
+    and continue the symbol reading loop. If a digit is encounter or a string lenght is too long we bypass this word in the text and wont check it for 
+    misspelling.
+     
+5.  There a bench of problem using fscanf you must allocate memory for a string before reading it from a file and there are no limits of a length of a word 
+    in a text file. Also you can't write program logically for skipping alphanumeric words, like the same implementation of speller.
+    This approach gives less flexibility.
+    
+6.  Those parameters are never intented to be modified in the functions, so we wrote an 
+    other layer of ensuring this behavior.
